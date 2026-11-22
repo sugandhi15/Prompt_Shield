@@ -1,4 +1,4 @@
-# PromptShield — Gemini Prompt Injection Analyzer
+# PromptShield 
 
 A multi-file Node.js + vanilla JavaScript web application. Paste a prompt into the frontend and receive a Gemini-powered analysis with a risk score, primary attack category, evidence, and an explicit downstream LLM processing decision.
 
@@ -16,7 +16,6 @@ A multi-file Node.js + vanilla JavaScript web application. Paste a prompt into t
 ## Requirements
 
 - Node.js 20+
-- A Gemini API key from [Google AI Studio](https://aistudio.google.com/apikey)
 
 ## Setup
 
