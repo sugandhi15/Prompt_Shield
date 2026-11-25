@@ -69,7 +69,7 @@ function renderResult(data, model) {
   document.querySelector("#decisionCard").classList.toggle("decision-block", !allowed);
   document.querySelector("#decisionCard").classList.toggle("decision-allow", allowed);
   setText("explanation", data.explanation);
-  setText("modelUsed", `MODEL: ${model || "GEMINI"}`);
+  // setText("modelUsed", `MODEL: ${model || "GEMINI"}`);
 
   const meter = document.querySelector("#meterFill");
   meter.style.width = `${data.risk_score}%`;
